@@ -1,0 +1,40 @@
+10
+
+dir
+1
+svn://localhost/minisat/minisat
+svn://localhost/minisat
+
+
+
+2014-08-06T08:54:21.187971Z
+1
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4731cad6-ae45-494b-bd8d-cb0d2453c4c5
+
+core
+dir
+
+mtl
+dir
+
+simp
+dir
+
+utils
+dir
+

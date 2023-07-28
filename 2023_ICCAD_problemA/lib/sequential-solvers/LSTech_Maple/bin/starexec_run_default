@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./lstech_maple $1 -drup-file=$2/proof.out

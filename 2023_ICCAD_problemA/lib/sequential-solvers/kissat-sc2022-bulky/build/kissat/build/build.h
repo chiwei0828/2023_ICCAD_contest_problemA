@@ -1,0 +1,5 @@
+#define VERSION "sc2022-bulky"
+#define COMPILER "gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5) -W -Wall -O3 -DNDEBUG -DNOPTIONS -DQUIET"
+#define ID "ee94ce47a42f38035f0bb0ef87579041eaeab72d"
+#define BUILD "Sun May 15 06:18:10 CDT 2022 Linux n154.star.cs.uiowa.edu 3.10.0-1160.62.1.el7.x86_64 x86_64"
+#define DIR "/export/starexec/sandbox2/solver/build/kissat/build"

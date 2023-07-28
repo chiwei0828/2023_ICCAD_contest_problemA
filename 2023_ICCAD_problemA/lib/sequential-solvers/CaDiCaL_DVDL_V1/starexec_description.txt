@@ -1,0 +1,1 @@
+CaDiCaL Simplified Satisfiability Solver

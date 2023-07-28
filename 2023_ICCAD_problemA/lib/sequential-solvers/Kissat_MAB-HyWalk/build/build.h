@@ -1,0 +1,5 @@
+#define VERSION "1.0.3"
+#define COMPILER "Apple clang version 13.0.0 (clang-1300.0.27.3) -W -Wall -O3 -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS"
+#define ID "79d8d8f20465e71fd2b0f193b468898cd803a59a"
+#define BUILD "Sat May 20 19:20:15 CST 2023 Darwin chenqiweideAir.home 21.3.0 arm64"
+#define DIR "/Users/chi_wei_chen/Desktop/2023_ICCAD_problemA/lib/sequential-solvers/Kissat_MAB-HyWalk/build"

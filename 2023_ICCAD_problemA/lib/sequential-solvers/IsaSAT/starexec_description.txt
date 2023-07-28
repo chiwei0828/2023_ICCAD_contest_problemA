@@ -1,0 +1,1 @@
+IsaSAT is a verified SAT solving using the proof assistant Isabelle.

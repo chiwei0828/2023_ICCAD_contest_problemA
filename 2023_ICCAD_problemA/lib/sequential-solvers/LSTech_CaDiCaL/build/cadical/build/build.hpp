@@ -1,0 +1,5 @@
+#define VERSION "1.4.1"
+#define IDENTIFIER "831f6b3cee8a32bb70bc2e67e5f49aeb70a23181"
+#define COMPILER "g++ (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5)"
+#define FLAGS "-Wall -Wextra -O3 -DNDEBUG -DQUIET -DNCONTRACTS -DNTRACING"
+#define DATE "Mon May 16 00:43:00 CDT 2022 Linux n125.star.cs.uiowa.edu 3.10.0-1160.62.1.el7.x86_64 x86_64"

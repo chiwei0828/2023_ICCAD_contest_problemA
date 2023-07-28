@@ -1,0 +1,5 @@
+#define VERSION "1.0.3"
+#define COMPILER "gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5) -W -Wall -O3 -DCOMPACT -DNEMBEDDED -DNDEBUG -DNMETRICS -DNOPTIONS -DQUIET -DNSTATISTICS"
+#define ID "9636debf99415f5c075cf9aceff4048ede062148"
+#define BUILD "Mon May 9 21:51:56 CDT 2022 Linux n189.star.cs.uiowa.edu 3.10.0-1160.62.1.el7.x86_64 x86_64"
+#define DIR "/export/starexec/sandbox/solver/build/kissat/build"

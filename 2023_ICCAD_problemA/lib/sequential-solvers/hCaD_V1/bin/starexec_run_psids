@@ -1,0 +1,2 @@
+#!/bin/sh
+exec ./cadical --psids=1 --target=2 --walk=false --chrono=true $1 $2/proof.out

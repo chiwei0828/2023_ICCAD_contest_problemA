@@ -1,0 +1,5 @@
+#!/bin/sh
+
+./configure --competition
+make
+cp build/cadical ./bin/

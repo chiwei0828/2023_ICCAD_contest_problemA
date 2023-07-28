@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd kissat_adaptive_restart/
+./configure && make 2>&1
+cp build/kissat ../bin/

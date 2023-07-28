@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# Run mergesat with simplification, and emitting a proof.
+# The proof is written to the file in the directory specified in the second
+# argument, in a file called "proof.out".
+
+# call solver from the directory where this script is located
+SOLVERDIR="$(dirname "${BASH_SOURCE[0]}" )"
+
+TMPDIR=$2
+if [ -n "${DEFAULT_MERGESAT_TMPDIR:-}" ]
+then
+	TMPDIR=$(realpath "${DEFAULT_MERGESAT_TMPDIR:-}")
+fi
+
+# disable formula simplification, produce proofs
+"$SOLVERDIR"/mergesat "$1" -diversify-rank=1 -verb=0 -drup-file="$TMPDIR"/proof.out

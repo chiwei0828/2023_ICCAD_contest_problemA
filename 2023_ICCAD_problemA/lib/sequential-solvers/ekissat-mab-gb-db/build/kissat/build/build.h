@@ -1,0 +1,5 @@
+#define VERSION "sc2020"
+#define COMPILER "gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5) -W -Wall -O3 -DCOMPACT -DNEMBEDDED -DNDEBUG -DNMETRICS -DNSTATISTICS"
+#define ID "039805f203ac24f204fd6ae0b3d6bae54332ee1e"
+#define BUILD "Sat May 14 17:07:39 CDT 2022 Linux n126.star.cs.uiowa.edu 3.10.0-1160.62.1.el7.x86_64 x86_64"
+#define DIR "/export/starexec/sandbox/solver/build/kissat/build"

@@ -1,0 +1,5 @@
+#define VERSION "sc2022-hyper"
+#define COMPILER "gcc (GCC) 7.3.1 20180303 (Red Hat 7.3.1-5) -W -Wall -O3 -DNDEBUG -DNOPTIONS -DQUIET"
+#define ID "94659c2a54819b783450d051aac1733096de2b71"
+#define BUILD "Sun May 15 06:18:54 CDT 2022 Linux n184.star.cs.uiowa.edu 3.10.0-1160.62.1.el7.x86_64 x86_64"
+#define DIR "/export/starexec/sandbox2/solver/build/kissat/build"

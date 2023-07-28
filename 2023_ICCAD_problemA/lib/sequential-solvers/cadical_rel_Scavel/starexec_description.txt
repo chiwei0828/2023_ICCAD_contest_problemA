@@ -1,0 +1,3 @@
+Based on Cadical_rel.1.4.1
+Author:Zhihui Li, Guanfeng Wu, Zhibin Yu, Yang Xu,Huimin Fu
+Department:Southwest Jiaotong University

@@ -1,0 +1,2 @@
+#!/bin/sh
+exec ./cadical --target=0 --walk=false $1 $2/proof.out

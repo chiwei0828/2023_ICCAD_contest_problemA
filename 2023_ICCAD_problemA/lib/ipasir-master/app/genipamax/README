@@ -1,0 +1,10 @@
+Genipamax is a trivial partial Max-SAT solver 
+based on adding activation literals to soft clauses 
+and encoding a cardinality constraint on these activation literals.
+To encode the cardinality constraint pblib[1] is used.
+
+[1] http://tools.computational-logic.org/content/pblib.php
+
+Tomas Balyo
+KIT, Karlsruhe
+22.1.2015

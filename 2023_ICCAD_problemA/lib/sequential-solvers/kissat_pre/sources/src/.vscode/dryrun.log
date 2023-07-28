@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/iser/Dropbox/KIT/2022/SAT Competition/solvers/kissat_pre/sources/src'
+make -C "/home/chenzh/benchmark/worker/sota/kissat-MAB/build"
+make[1]: Entering directory '/home/iser/Dropbox/KIT/2022/SAT Competition/solvers/kissat_pre/sources/src'
+make[1]: Leaving directory '/home/iser/Dropbox/KIT/2022/SAT Competition/solvers/kissat_pre/sources/src'
+make: Leaving directory '/home/iser/Dropbox/KIT/2022/SAT Competition/solvers/kissat_pre/sources/src'
+ 
+make[1]: *** /home/chenzh/benchmark/worker/sota/kissat-MAB/build: No such file or directory.  Stop.
+make: *** [makefile:2: all] Error 2
+

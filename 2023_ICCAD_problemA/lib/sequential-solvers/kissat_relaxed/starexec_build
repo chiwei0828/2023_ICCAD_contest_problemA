@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd kissat_relaxed/
+./configure && make 2>&1
+cp build/kissat ../bin/

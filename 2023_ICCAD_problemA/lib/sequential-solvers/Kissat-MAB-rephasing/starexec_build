@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd kissat_mab_rephasing/
+./configure && make 2>&1
+cp build/kissat ../bin/

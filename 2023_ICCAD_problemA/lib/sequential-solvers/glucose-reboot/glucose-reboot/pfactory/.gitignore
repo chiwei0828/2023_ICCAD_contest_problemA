@@ -1,0 +1,30 @@
+# Autotools generated files
+
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+config/
+configure
+.deps/
+src/config.h
+src/config.h.in
+src/stamp-h1
+
+# Binaries
+
+*.[ao]
+examples/communication/communication
+examples/helloworld/helloworld
+examples/safeQueue/safeQueue
+lib/
+
+# Editor generated files
+*~
+.vscode/
+*.code-workspace
+
+# Sonarcloud wrapper files
+build-wrapper-linux-x86/out/

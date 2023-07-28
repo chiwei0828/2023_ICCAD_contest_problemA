@@ -1,0 +1,3 @@
+#!/bin/bash
+
+./LStech-Maple-BandSAT $1 -drup-file=$2/proof.out
