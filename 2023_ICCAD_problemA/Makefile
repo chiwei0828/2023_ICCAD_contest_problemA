@@ -1,7 +1,8 @@
 CC := g++
 #CC := clang
 exe := main
-CFLAGS := -std=c++17 -O2 -Wall -Wextra -fsanitize=undefined -fsanitize=address 
+# CFLAGS := -std=c++17 -O2 -Wall -Wextra -fsanitize=undefined -fsanitize=address
+CFLAGS := -std=c++17 -O2 -Wall -Wextra -static
 LINK := -lm -ldl -lreadline -lpthread
 LIB := lib/libabc.a
 CAD_LIB := lib/libcadical.a
@@ -22,15 +23,6 @@ all:$(obj) $(LIB) lib/libcadical.a
 #   cd ./lib/sequential-solvers/Kissat_MAB-HyWalk && ./configure && make kissat
 #	cd ./lib/aiger  && ./configure.sh && make
 #   cd ./lib/SAT-Solver && make
-# rm -rf circuit_1_aigs
-# rm -rf circuit_2_aigs
-# mkdir circuit_1_aigs
-# mkdir circuit_2_aigs
-
-# rm -rf circuit_1_cnfs
-# rm -rf circuit_2_cnfs
-# mkdir circuit_1_cnfs
-# mkdir circuit_2_cnfs
 
 $(obj_dir)/%.o: $(src_dir)/%.cpp
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -39,6 +31,8 @@ $(obj_dir)/%.o: $(src_dir)/%.cpp
 lib/libabc.a:
 	cd lib/abc/ && make -j 20 libabc.a
 	mv lib/abc/libabc.a lib/
+	cd lib/aiger && ./configure.sh && make
+	mv lib/aiger/aiger.o obj/
 
 
 # lib/libkissat.a:

@@ -10,6 +10,7 @@
 #include <sstream>
 #include <set>
 #include <ctime>
+#include <algorithm>
 #include "utility.h"
 #include "timer.h"
 #include "cadical.hpp"

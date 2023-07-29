@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include <cstring>
 #include <ctime>
+#include <algorithm>
 #include "utility.h"
 #include "output_solver.h"
 #include "input_solver.h"
